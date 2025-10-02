@@ -56,3 +56,19 @@
     width: 24px;
     height: 24px;
 }
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem;
+}
+
+.details {
+    position: sticky;
+    align-self: start;
+    top: 0.2rem;
+}
+
+.song, p:last-of-type {
+    margin-bottom: 0;
+}

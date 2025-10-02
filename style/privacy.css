@@ -7,6 +7,19 @@ section {
     margin: 0 auto;
 }
 
+h3 {
+    font-size: 1.2rem;
+    margin: 1.5rem 0 0.4rem 0;
+}
+
+main section ul {
+    margin-left: 1.8rem;
+}
+
+main section li {
+    margin-bottom: 0.5rem;
+}
+
 @media (max-width: 768px) {
     section {
         padding: 1.5rem;

@@ -21,13 +21,8 @@ header {
     position: relative;
 }
 
-a {
-    color: #2980b9;
-    text-decoration: none;
-}
-
-a:visited {
-    color: #1a5276;
+main a {
+    color: #2a89c8;
     text-decoration: none;
 }
 

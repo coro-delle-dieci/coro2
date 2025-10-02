@@ -26,6 +26,10 @@ section {
     transition: all 0.2s ease;
 }
 
+.canto-link a {
+    color: #061a40;
+}
+
 .warning {
     background-color: #fff3cd;
     border: 1px solid #ffeaa7;

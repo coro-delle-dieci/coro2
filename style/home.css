@@ -24,16 +24,6 @@ section {
 .canto-link {
     margin-bottom: 0.5rem;
     transition: all 0.2s ease;
-    
-}
-
-.canto-link a {
-    color: #14416E;
-    text-decoration: none;
-}
-
-.canto-link a:hover {
-    text-decoration: underline;
 }
 
 .warning {

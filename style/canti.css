@@ -66,9 +66,17 @@ main {
 .details {
     position: sticky;
     align-self: start;
-    top: 0.2rem;
+    top: 1.5em;
+    padding-top: 1em;
+    margin-bottom: 0;
 }
 
 .song, p:last-of-type {
     margin-bottom: 0;
+}
+
+@media (max-width: 968px) {
+    main {
+        grid-template-columns: 1fr;
+    }
 }

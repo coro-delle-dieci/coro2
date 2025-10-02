@@ -99,9 +99,8 @@ nav a:hover {
 
 /* Main content */
 main {
-    max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem 1rem;
+    padding: 2rem 3rem;
 }
 
 section {
@@ -117,7 +116,7 @@ h2 {
 
 h3 {
     color: #061a40;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 /* Footer */

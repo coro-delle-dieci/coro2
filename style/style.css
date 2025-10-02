@@ -144,6 +144,14 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
+    main {
+        padding: 0 1.5rem;
+    }
+
+    h2 {
+        padding-top: 1rem;
+    }
+
     .menu-icon {
         display: block;
     }

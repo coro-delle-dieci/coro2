@@ -4,6 +4,10 @@
     gap: 2rem;
 }
 
+section {
+    margin-bottom: 2rem;
+}
+
 .left-column, .centre-column, .right-column {
     display: flex;
     flex-direction: column;

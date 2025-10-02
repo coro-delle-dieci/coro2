@@ -1,0 +1,55 @@
+.subtitle {
+    font-style: italic;
+    color: #7f8c8d;
+    margin-bottom: 1.5rem;
+}
+
+.verse, .chorus, .bridge {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
+
+.chorus {
+    font-weight: bold;
+}
+
+.bridge {
+    font-style: italic;
+}
+
+.video-container {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.video-container iframe {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.download {
+    margin-bottom: 1rem;
+}
+
+.download-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #2c3e50;
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s;
+}
+
+.download-link:hover {
+    background-color: #f8f9fa;
+    border-color: #2980b9;
+}
+
+.ico {
+    width: 24px;
+    height: 24px;
+}

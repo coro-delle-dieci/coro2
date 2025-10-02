@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="it">
+<head><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Damiano</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/canti.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+    <link rel="manifest" href="../images/site.webmanifest">
+    <link rel="mask-icon" href="../images/safari-pinned-tab.svg" color="#061a40">
+    <meta name="msapplication-TileColor" content="#061a40">
+    <meta name="theme-color" content="#061a40">
+</head>
+<body>
+    <header>
+        <h1>Coro delle Dieci</h1><input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="overlay"></div>
+        <nav>
+            <ul>
+                <li><a href="..">Home</a></li>
+                <li><a href="../canti">Canti</a></li>
+                <li><a href="../calendario">Calendario</a></li>
+                <li><a href="../admin/aggiungi-canto">Area riservata</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section data-tags="">
+            <h2>San Damiano</h2>
+			<p class="verse">
+				Ogni uomo semplice porta in cuore un sogno;<br>
+				con amore ed umiltà potrà costruirlo.<br>
+				Se con fede tu saprai vivere umilmente,<br>
+				più felice tu sarai anche senza niente.<br>
+			</p>
+			<p class="verse">
+				Se vorrai ogni giorno, con il tuo sudore,<br>
+				una pietra dopo l'altra alto arriverai.<br>
+			</p>
+			<p class="verse">
+				Nella vita semplice troverai la strada,<br>
+				che la pace donerà al tuo cuore puro;<br>
+				e le gioie semplici sono le più belle,<br>
+				sono quelle che alla fine sono le più grandi.<br>
+			</p>
+			<p class="verse">
+				Dai e dai, ogni giorno, con il tuo sudore,<br>
+				una pietra dopo l'altra alto arriverai.<br>
+			</p>
+        </section>
+        <section class="video-container">
+            <iframe src="https://www.youtube.com/embed/NWo5W8TggTc?si=ibVV1IPt1ZWdaZMy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        
+    
+        <section>
+            <div class="download">
+                <a href="../pdf-testi/san-damiano.pdf" download target="_blank" class="download-link">
+                    <img class="ico" alt="canto.pdf" title="canto.pdf" src="../images/text-file.png">
+                    <span>Scarica il testo in PDF</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="anno"></span> Coro delle Dieci - <a class="privacy" href="../privacy">Privacy e note legali</a></p>
+    </footer>
+
+    <script src="../script/anno.js"></script>
+    
+</body>
+</html>

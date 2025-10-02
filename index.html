@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elenco dei canti</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/calendario.css">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barrio&family=Walter+Turncoat&display=swap');
+    </style>
+</head>
+<body class="home-page">
+
+    <header>
+        <h1>Coro delle Dieci</h1><input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="overlay"></div>
+        <nav>
+            <ul>
+                <li><a href=".">Home</a></li>
+                <li><a href="./canti">Canti</a></li>
+                <li><a href="./calendario">Calendario</a></li>
+                <li><a href="./admin/aggiungi-canto">Area riservata</a></li>
+            </ul>
+        </nav>
+
+        <!--
+        <script src="https://accounts.google.com/gsi/client" async defer></script>
+        <div id="g_id_onload"
+            data-client_id="323093581777-4t1n2mpfc8p6c21s1k05cstbv8gc483t.apps.googleusercontent.com"
+            data-context="signin"
+            data-ux_mode="popup"
+            data-callback="onGoogleLogin">
+        </div>
+        -->
+    </header>
+    
+
+    <!-- ATTENZIONE: per eliminare momentaneamente una sezione, commentare solamente le section, non i div -->
+
+    <main>
+        <div class="left-column">
+            <!--
+            <section>
+                <h3>I canti di Pasqua</h3>
+                <div class="div-canti">
+                    <p class="canto-link"><a href="canti/cristo-vive-in-mezzo-a-noi" target="_blank">Cristo vive in mezzo a noi</a></p>
+                    <p class="canto-link"><a href="canti/gloria-buttazzo" target="_blank">Gloria (Buttazzo)</a></p>
+                    <p class="canto-link"><a href="canti/alleluia-ora-lui-vive" target="_blank">Alleluia, ora Lui vive</a></p>
+                    <p class="canto-link"><a href="canti/santo-giorgi" target="_blank">Santo (Giorgi)</a></p>
+                    <p class="canto-link"><a href="canti/cristo-e-risorto-veramente" target="_blank">Cristo è risorto veramente</a></p>
+                </div>
+            </section>
+            -->
+
+            <!--
+            <section>
+                <h3>I canti di Natale</h3>
+                <div class="div-canti">
+                    <p class="canto-link"><a href="canti/canto" target="_blank">Canto</a></p>
+                    <p class="canto-link"><a href="canti/canto" target="_blank">Canto</a></p>
+                    <p class="canto-link"><a href="canti/canto" target="_blank">Canto</a></p>
+                    <p class="canto-link"><a href="canti/canto" target="_blank">Canto</a></p>
+                    <p class="canto-link"><a href="canti/canto" target="_blank">Canto</a></p>
+                </div>
+            </section>
+            -->
+        </div>
+        
+
+        <div class="centre-column">
+            <!-- Avviso di inizio anno 
+            <section class="warning" style="border: 2px solid #003559;">
+                <h3>ATTENZIONE!</h3>
+                <div>
+                    <p>Ricominceremo il nostro servizio di animazione della S. Messa delle ore 10:00 domenica 21 settembre.</p>
+                    <p style="font-family: Walter Turncoat; font-size: 24px; font-weight: bold; margin-top: 20px;">Vi aspettiamo numerosi!</p>
+                </div>
+            </section>
+            -->
+
+            <section>
+                <h3>I canti di domenica <span id="data-domenica"></span></h3>
+                <div id="canti-domenica" class="div-canti"></div>
+            </section>
+
+            <section class="calendar-section">
+                <h3><a href="calendario/">Calendario delle prove</a></h3>
+                <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FRome&showTz=0&mode=AGENDA&src=Y29ybzEwLnNhbnZpdG9AZ21haWwuY29t&src=NjIzMzkxY2JkZGVjZmExNDA0YmJmZTI1NTcwNjJkZmU3OWVjYzIyMzdjMDE5Mjg4YjM1ZGE5ZmM2Y2Q2MDYxMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23006daa&color=%23061a40"></iframe>
+            </section>
+        </div>
+        
+        
+        <div class="right-column">
+            
+            <section>
+                <h3>Nuovi canti</h3>
+                <div class="div-canti">
+                    <p class="canto-link"><a href="canti/altissimo" target="_blank">Altissimo</a></p>
+                    <p class="canto-link"><a href="canti/san-francesco" target="_blank">San Francesco</a></p>
+                </div>
+            </section>
+            
+            
+            <!-- LE PAROLE DI PAPA LEONE XIV 
+            <section class="widget-papa">
+                <script type="text/javascript">
+                    var lds_pope_tool_code = '9aeddf17dc1027fcc55ba725146c36d0';
+                    var lds_pope_tool_pool = lds_pope_tool_pool || [];
+                    lds_pope_tool_pool.push(lds_pope_tool_code);
+                </script>
+
+                <a id="lds_pope_9aeddf17dc1027fcc55ba725146c36d0_ads" target="_blank"
+                    href="https://www.libreriadelsanto.it/frasi_di/papa-leone-XIV.html">
+                    <img src="https://www.libreriadelsanto.it/f20e/images/tool_papa/papa_leo_F0/header.png"
+                        alt="Papa Leone XIV">
+                </a>
+
+                <script type="text/javascript" src="https://www.libreriadelsanto.it/widget/papa-leone-XIV/papa_leo_F0.js"></script>
+            </section>
+            -->
+
+            <!--
+            <section>
+                <h3>Scarica il canzoniere completo</h3>
+                <p>Per scaricare il canzoniere completo in formato PDF, clicca sul link qui sotto:</p>
+                <div class="download">
+                    <a href="./pdf-testi/canzoniere.pdf" download target="_blank" class="download-link">
+                        <img class="ico" alt="canto.pdf" title="canto.pdf" src="../images/download.png">
+                        <span>Canzoniere Coro delle 10</span>
+                    </a>
+                </div>
+            </section>
+            -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="anno"></span> Coro delle Dieci - <a class="privacy" href="privacy.html">Privacy e note legali</a></p>
+    </footer>
+
+    <script src="./script/anno.js"></script>
+
+    <script src="./script/canti-excel.js"></script>
+    
+    
+</body>
+</html>
